@@ -1,0 +1,96 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    transition: all .1s ease-in;
+}
+body {
+    font-size: 16px;
+    background-color: #3399CC;
+    color: white;
+    border: 12px solid #2B81AC;
+    font-family: “Lucida Sans Unicode”, “Lucida Grande”, sans-serif;
+}
+.wrapper {
+    margin: 0 auto;
+    width: 55%;
+}
+.cities {
+    list-style-type: none;
+    font-size: 0;
+    margin-top: 20px;
+    border: 3px solid white;
+}
+.cities li {
+    display: inline-block;
+    border: 3px solid white;
+    padding: 20px;
+    font-size: 20px;
+    text-align: center;
+}
+.cities li div {
+    margin-bottom: 8px;
+}
+.cities li span {
+    opacity: 0.6;
+    margin-top: 7px;
+}
+.cities li i {
+    font-size: 26px;
+}
+.cities li:first-child {
+    width: 50%;
+    background-color: #3399CC;
+}
+.cities li:nth-of-type(2) {
+    width: 25%;
+    background-color: #33CCCC;
+}
+.cities li:nth-of-type(3) {
+    width: 25%;
+    background-color: #996699;
+}
+.cities li:nth-of-type(4) {
+    width: 25%;
+    background-color: #C24747;
+}
+.cities li:nth-of-type(5) {
+    width: 25%;
+    background-color: #E2674A;
+}
+.cities li:nth-of-type(6) {
+    width: 25%;
+    background-color: #FFCC66;
+}
+.cities li:nth-of-type(7) {
+    width: 25%;
+    background-color: #99CC99;
+}
+.cities li:nth-of-type(8) {
+    width: 25%;
+    background-color: #669999;
+}
+.cities li:nth-of-type(9) {
+    width: 50%;
+    background-color: #CC6699;
+}
+.cities li:nth-of-type(10) {
+    width: 25%;
+    background-color: #339966;
+}
+.cities li:nth-of-type(11) {
+    width: 100%;
+    background-color: #666699;
+}
+.cities:hover {
+    border-color: rgba(255, 255, 255, 0.5);
+}
+.cities:hover li {
+    opacity: 0.5;
+}
+.cities li:hover {
+    opacity: 1;
+}
+.footer {
+    margin: 20px;
+}
